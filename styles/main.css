@@ -1,3 +1,5 @@
+ /* media querys para responsive de bootstrap */ 
+
 html {
   font-size: 1rem;
   }
@@ -20,33 +22,24 @@ html {
   }
   }
 
-
-#intro {
-  background: url("") no-repeat center center;
-  background-size: cover;
-}
-
-.navbar-navbar-expand-lg {
-  background-color: blue !important;
-}
-
+ /* Fuente Avenir */ 
 
 body {
   font-family: Avenir !important;
   src: url('/font/avenir/AvenirLTStd-Medium.otf');
 }
 
-
-.color {
+ /* color verde bajo */ 
+ .color {
   background-color: #00D4A8;
 }
 
-
+ /* color verde fuerte */ 
 .color2 {
   background-color: #18AA8D;
 }
 
-
+ /* gradient para form */ 
 .terminos {
   background: #4AC29A;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to top, #BDFFF3, #4AC29A);  /* Chrome 10-25, Safari 5.1-6 */
@@ -55,21 +48,24 @@ body {
 }
 
 
-
+ /* color de boton */ 
 .boton{
   background-color: #18AA8D !important;
   border-color:  #18AA8D !important;
 }
 
-
+ /* navbar */ 
 .top-nav-collapse {
   background-color: #00D4A8 !important;
 }
+
 
 .navbar:not(.top-nav-collapse) {
   background: transparent !important;
 }
 
+
+ /* caracteristicas de responsive 768 */ 
 @media (max-width: 768px) {
   .navbar:not(.top-nav-collapse) {
     background: #00D4A8 !important;
@@ -81,6 +77,7 @@ body {
   }
 }
 
+ /* caracteristicas de responsive 880 */ 
 @media (max-width: 880px) {
   .navbar:not(.top-nav-collapse) {
     background: #00D4A8 !important;
@@ -100,7 +97,7 @@ body {
   line-height: 1.7;
 }
 
-
+ /* caracteristicas de responsive 450 */ 
 @media (max-width: 450px) {
   .margins {
     margin-right: 1rem;
@@ -116,7 +113,7 @@ body {
   }
 }
 
-
+ /* caracteristicas de responsive 384 */ 
 @media (max-width: 384px) {
   .margins {
     margin-right: 1rem;
@@ -134,7 +131,7 @@ body {
   }
 }
 
-
+ /* caracteristicas de responsive 360 */ 
 @media (max-width: 360px) {
   .margins {
     margin-right: 1rem;
@@ -153,7 +150,7 @@ body {
   }
 }
 
-
+ /* caracteristicas de responsive 320*/ 
 @media (max-width: 320px) {
   .margins {
     margin-right: 1rem;
@@ -172,28 +169,18 @@ body {
   }
 }
 
-#pricing .lead {
-  opacity: 0.7;
-}
-
-#pricing .card-image {
-  background: url("../img/architecture.jpg") no-repeat center center;
-}
-
-#pricing ul li {
-  font-size: 1.1em;
-}
-
-
+ /* posicion vertical de carousel */ 
 .vertical {
   height: 65vh;
   width: 37vh;
 }
 
+ /* laterales del caurusel */ 
 .carousel-control-next-icon, .carousel-control-prev-icon {
   background-color: #18AA8D !important;
 }
 
+ /* subrrayar color verde */ 
 u {
   text-decoration: underline;
   text-decoration-color: #00D4A8;
@@ -202,7 +189,7 @@ u {
 }
 
 
-
+ /* Accion del modal */ 
 .modal-dialog-full-width {
   width: 100% !important;
   height: 100% !important;
