@@ -52,6 +52,7 @@ body {
 .boton{
   background-color: #18AA8D !important;
   border-color:  #18AA8D !important;
+  color: black !important;
 }
 
  /* navbar */ 
@@ -95,9 +96,9 @@ body {
 #intro .h6 {
   font-weight: 300;
   line-height: 1.7;
-}
+} 
 
- /* caracteristicas de responsive 450 */ 
+ /* caracteristicas de responsive 450 
 @media (max-width: 450px) {
   .margins {
     margin-right: 1rem;
@@ -111,9 +112,11 @@ body {
   h1 {
     margin-top: auto;
   }
-}
+} 
 
- /* caracteristicas de responsive 384 */ 
+*/
+
+ /* caracteristicas de responsive 384 
 @media (max-width: 384px) {
   .margins {
     margin-right: 1rem;
@@ -131,7 +134,9 @@ body {
   }
 }
 
- /* caracteristicas de responsive 360 */ 
+*/ 
+
+ /* caracteristicas de responsive 360 
 @media (max-width: 360px) {
   .margins {
     margin-right: 1rem;
@@ -150,7 +155,9 @@ body {
   }
 }
 
- /* caracteristicas de responsive 320*/ 
+*/ 
+
+ /* caracteristicas de responsive 320
 @media (max-width: 320px) {
   .margins {
     margin-right: 1rem;
@@ -168,6 +175,8 @@ body {
     font-size: small;
   }
 }
+
+*/ 
 
  /* posicion vertical de carousel */ 
 .vertical {
@@ -212,4 +221,9 @@ u {
 
 .modal-footer-full-width  {
   border-top: 1px solid #9ea2a2 !important;
+}
+
+
+h2 {
+  color: black !important;
 }
