@@ -66,16 +66,15 @@ body {
 } 
 
 
-@media (max-width: 320px) {
-
+@media (max-width: 375px) {
   .tamanoimg {
     display:block;
     margin:auto;
-    width: 190px;
+    width: 230px;
   }
 
   .texth1 {
-    font-size: 20px;
+    font-size: 23px;
   }
 
   .textlitle {
@@ -89,70 +88,62 @@ body {
     font-size: 20px;
     text-align:center;
   }
+  
 } 
 
 
- /* caracteristicas de responsive 384 
-@media (max-width: 384px) {
-  .margins {
-    margin-right: 1rem;
-    margin-left: 1rem;
-    }
-  .navbar-nav {
-    font-size: 20px;
-    text-align:center;
+@media (max-width: 320px) {
+
+  .tamanoimg {
+    display:block;
+    margin:auto;
+    width: 145px;
   }
+
+  .texth1 {
+    font-size: 19px;
+  }
+
   .textlitle {
     font-size: 12px;
   }
-  h1 {
-    margin-top: auto;
-  }
-}
-
-*/ 
-
- /* caracteristicas de responsive 360 
-@media (max-width: 360px) {
   .margins {
     margin-right: 1rem;
     margin-left: 1rem;
-    }
+  }
   .navbar-nav {
     font-size: 20px;
     text-align:center;
   }
+} 
+
+
+
+@media (max-width: 200px) {
+
+  .tamanoimg {
+    display:block;
+    margin:auto;
+    width: 145px;
+  }
+
+  .texth1 {
+    font-size: 19px;
+  }
+
   .textlitle {
-    font-size: 8px;
+    font-size: 12px;
   }
-  h1 {
-    margin-top: auto;
-    font-size: small;
-  }
-}
-
-*/ 
-
- /* caracteristicas de responsive 320
-@media (max-width: 320px) {
   .margins {
     margin-right: 1rem;
     margin-left: 1rem;
-    }
+  }
   .navbar-nav {
     font-size: 20px;
     text-align:center;
   }
-  .textlitle {
-    font-size: 4px;
-  }
-  h1 {
-    margin-top: 50px;
-    font-size: small;
-  }
-}
+} 
 
-*/ 
 
  /* posicion vertical de carousel */ 
 .vertical {
